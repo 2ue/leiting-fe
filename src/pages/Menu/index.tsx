@@ -5,11 +5,12 @@ const Menu: React.FC = () => {
   const navigate = useNavigate();
 
   const routes = [
-    { name: '文件管理', path: '/file-manager' },
+    { name: '文件管理', path: '/files' },
     { name: '设置', path: '/settings' },
     { name: 'Markdown编辑器', path: '/markdown' },
-    { name: '无限画布', path: '/canvas' },
+    { name: '无限画布', path: '/draw' },
     { name: '思维导图', path: '/mindmap' },
+    { name: '标签管理', path: '/tags' },
   ];
 
   return (
